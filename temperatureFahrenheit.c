@@ -5,11 +5,11 @@
 int main() {
 	float tempfahr,tempcels;
 	
-	print("Entrer la température Celsius :");
+	printf("Entrer la température Celsius :");
 	scanf("%f",&tempcels);
 	
-	tempFahr=(tempcels*9/5)+32;
+	tempfahr=(tempcels*9/5)+32;
 	
-	printf("La température fahrenheit du tampérature %.2f est %.2f",tempcels,tempFahr);
+	printf("La temperature fahrenheit du tamperature %.2f est %.2f",tempcels,tempfahr);
 	return 0;
 }
